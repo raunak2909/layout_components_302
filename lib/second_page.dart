@@ -9,6 +9,15 @@ class SecondPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Second Page'),
       ),
+      body: Center(
+        child: Text('This is Second Page'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+
+        },
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
